@@ -29,12 +29,12 @@ img {
     max-width: 100%;
 }
 
-.navbar {
+header {
     background-color: #fff;
     padding: 20px;
 }
 
-.navbar .container {
+header .container {
     display: flex;
     justify-content: space-between;
 }
