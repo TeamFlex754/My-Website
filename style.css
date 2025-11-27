@@ -28,3 +28,13 @@ ul {
 img {
     max-width: 100%;
 }
+
+.navbar {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
