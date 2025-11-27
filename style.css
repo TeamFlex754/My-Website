@@ -37,4 +37,23 @@ header {
 header .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border: 2px, solid red;
+}
+
+header .navbar ul{
+    display: flex;
+}
+
+header ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+header ul li a:hover {
+    color: var(--primary-color);
 }
