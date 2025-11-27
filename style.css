@@ -46,6 +46,7 @@ header .container {
     font-weight: 600;
     color: #333;
     transition: 0.5s;
+    padding: 0 20px;
 }
 
 header .navbar ul{
