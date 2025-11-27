@@ -47,6 +47,7 @@ header .container {
     color: #333;
     transition: 0.5s;
     padding: 0 20px;
+    letter-spacing: 1.5px;
 }
 
 header .navbar ul{
@@ -60,6 +61,7 @@ header ul li a {
     display: block;
     font-weight: 600;
     transition: 0.5s;
+    letter-spacing: 1.5px;
 }
 
 header ul li a:hover {
