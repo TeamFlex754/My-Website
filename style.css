@@ -41,6 +41,13 @@ header .container {
     border: 2px, solid red;
 }
 
+.logo a {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+    transition: 0.5s;
+}
+
 header .navbar ul{
     display: flex;
 }
@@ -55,5 +62,9 @@ header ul li a {
 }
 
 header ul li a:hover {
+    color: var(--primary-color);
+}
+
+header .logo a:hover {
     color: var(--primary-color);
 }
