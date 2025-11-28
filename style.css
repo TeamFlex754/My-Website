@@ -29,35 +29,28 @@ img {
     max-width: 100%;
 }
 
-header {
-    background-color: #fff;
-    padding: 20px;
-}
-
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px, solid red;
 }
 
 .logo a {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 900;
     color: #333;
     transition: 0.5s;
-    padding: 0 20px;
     letter-spacing: 1.5px;
 }
 
 header .navbar ul{
     display: flex;
+    gap: 20px;
 }
 
 header ul li a {
     color: #333;
     text-decoration: none;
-    padding: 10px 20px;
     display: block;
     font-weight: 600;
     transition: 0.5s;
@@ -70,4 +63,11 @@ header ul li a:hover {
 
 header .logo a:hover {
     color: var(--primary-color);
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 2px solid red;
 }
