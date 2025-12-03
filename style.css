@@ -15,6 +15,12 @@ body {
     background-color: #fff;
     font-size: 16px;
     line-height: 1.5;
+    padding: 60px 40px;
+    margin: 0 200px;
+}
+
+.website {
+    padding: 40px 36px;
 }
 
 a {
@@ -29,21 +35,27 @@ img {
     max-width: 100%;
 }
 
-header .container {
+.site-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 25px;
+    padding: 40px 0;
+    
 }
 
-.logo a {
-    font-size: 30px;
-    font-weight: 900;
-    color: #333;
-    transition: 0.5s;
-    letter-spacing: 1.5px;
+.header-left img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-header .navbar ul{
+.header-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar ul{
     display: flex;
     gap: 20px;
 }
@@ -65,9 +77,11 @@ header .logo a:hover {
     color: var(--primary-color);
 }
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0 15px;
-    border: 2px solid red;
+.logo {
+    font-size: 30px;
+    font-weight: 900;
+    color: #333;
+    transition: 0.5s;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
 }
