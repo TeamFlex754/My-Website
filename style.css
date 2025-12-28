@@ -6,7 +6,7 @@
 
 body {
     font-family: Poppins, sans-serif;
-    background-color: #fff;
+    background-color: #fefefe;
     color: #333;
     padding-top: 150px;
     margin-bottom: 2000px;
@@ -20,7 +20,12 @@ ul {
     list-style: none;
 }
 
-.container-header {
+.container {
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,8 +37,7 @@ ul {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
-    padding: 0 50px;
+    background-color: #fcfcfc;
 }
 
 .header-left {
