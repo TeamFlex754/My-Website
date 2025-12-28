@@ -4,23 +4,12 @@
     padding: 0;
 }
 
-:root {
-    --primary-color: #4891ff;
-    --light-color: #f4f4f6;
-    --dark-color: #111;
-}
-
 body {
     font-family: Poppins, sans-serif;
     background-color: #fff;
-    font-size: 16px;
-    line-height: 1.5;
     color: #333;
-    margin: 100px;
-}
-
-.website {
-    padding: 40px 36px;
+    padding-top: 150px;
+    margin-bottom: 2000px;
 }
 
 a {
@@ -31,35 +20,45 @@ ul {
     list-style: none;
 }
 
-img {
-    max-width: 100%;
-}
-
-header {
-    margin-bottom: 50px;
-}
-
 .container-header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 25px;
-    max-width: 1200px;
     color: #333;
-    margin: 0 auto;
-    
+    border-bottom: 1px solid #333;
+    height: 125px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 0 50px;
 }
 
-.header-left img {
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.ian-pic {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
 
+.name-logo {
+    font-size: 30px;
+    font-weight: 900;
+    color: #333;
+    letter-spacing: 1.5px;
+}
+
 .header-right {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar ul{
@@ -67,33 +66,15 @@ header {
     gap: 40px;
 }
 
-header ul li a {
+.navbar ul li a {
     color: #333;
     text-decoration: none;
     display: block;
     font-weight: 600;
-    transition: 0.5s;
+    transition: color 0.15s;
     letter-spacing: 1.5px;
 }
 
-header ul li a:hover {
-    color: var(--primary-color);
-}
-
-header .logo a:hover {
-    color: var(--primary-color);
-}
-
-.logo {
-    font-size: 30px;
-    font-weight: 900;
-    color: #333;
-    transition: 0.5s;
-    letter-spacing: 1.5px;
-    margin-bottom: 8px;
-}
-
-.hero {
-    max-width: 1200px;
-    margin: 0 auto;
+.navbar ul li a:hover {
+    color: dodgerblue;
 }
